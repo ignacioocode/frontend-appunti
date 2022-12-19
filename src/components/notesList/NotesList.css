@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,200;1,400&family=Space+Grotesk:wght@500&family=Zen+Dots&display=swap');
+
+.container-notesList .note-link {
+    text-decoration: none;
+}
+
+.container-notesList li {
+    height: 97px;
+    width: 100%;
+    font-size: 20px;
+    list-style: none;
+    background: #fcfcfc;
+    box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.1);
+    padding: 4px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    border: .3px solid rgba(0, 0, 0, .4);
+    border-left: rgb(39, 171, 103) 5px solid;
+    transition: .3s;
+}
+
+.container-notesList li:hover{
+    background: rgba(0, 0, 0, .1);
+}
+
+
+.container-notesList li .note {
+    font-size: 18px;
+    color: #333;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container-notesList .icon {
+    height: 18px;
+}
+
+.container-notesList .icon p {
+    font-size: small;
+    color: #333;
+    text-decoration: none;
+    text-align: end;margin-right: 30px;
+}
+
+.container-notesList .info {
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    right: 0;
+    color: #444;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    .container-notesList li {
+        height: 95px;
+    }
+
+    .container-notesList .note {
+        font-size: 17px;
+    }
+}

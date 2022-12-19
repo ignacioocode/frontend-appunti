@@ -1,0 +1,65 @@
+.container-logout {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.container-logout .container-modal {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logout .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container-logout .container-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-logout button {
+    background: transparent;
+    color: rgb(51, 112, 255);
+    border: .3px solid rgb(51, 112, 255);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.container-logout .delete {
+    background: transparent;
+    color: #f33;
+    border: .3px solid #f33;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+}

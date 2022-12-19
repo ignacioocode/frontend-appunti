@@ -1,0 +1,29 @@
+.Input {
+    height: 40px;
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid rgb(39, 171, 103);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+    background: transparent;
+}
+
+input::placeholder
+{
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+Input:focus
+{
+    outline: .1px solid rgb(39, 171, 103);
+}
+
+@media (max-width: 600px) {
+    .Input {
+        height: 40px;
+        font-size: 12px;
+    }
+}

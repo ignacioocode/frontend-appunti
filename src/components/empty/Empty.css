@@ -1,0 +1,12 @@
+.empty
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, .6)
+}

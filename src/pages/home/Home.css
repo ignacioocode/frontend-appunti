@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Grotesk:wght@500&family=Zen+Dots&display=swap');
+
+.home 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    max-width: 850px;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.home__title
+{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size:18px;
+    color:rgba(0, 0, 0, .8)
+}
+
+.container-notesList
+{
+    height: 100%;
+    min-height: 600px;
+    margin: 20px 0;
+}
+
+.container-notesList ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+.container-newNote
+{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    background: transparent;
+    border: none;
+    transition: all .5s;
+}
+
+.newNoteButton
+{
+    font-size: 60px;
+    color:rgb(39, 171, 103);
+}
+
+.container-newNote:hover
+{
+     transform: rotate(180deg);
+     cursor: pointer;
+}
+.message 
+{
+    padding-left: 15px;
+    color: rgba(0, 0, 0, .8)
+}
+
+@media (max-width: 600px) {
+.newNoteButton {
+    font-size: 60px;
+}
+}

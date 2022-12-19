@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Zen+Dots&display=swap');
+
+.container-register {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+.container-register label {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.container-register form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-width: 300px;
+    max-width: 400px;
+    height: 450px;
+    background: rgba(255, 253, 253, 0.1);
+    border-radius: 10px;
+    border: .2px solid rgba(0, 0, 0, 0.3);
+}
+
+.container-register p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-register p .link-login {
+    color: rgb(39, 171, 103);
+}
+
+.container-register .error {
+    font-size: 10px;
+    color: #f33;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .container-register{
+        height: 850px;
+        margin-top: 0;
+    }
+    .container-register form{
+        min-width: 310px;
+    }
+    .container-register label{
+        font-size: 18px;
+    }
+    .container-register p{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Grotesk:wght@500&family=Zen+Dots&display=swap');
+
+.container-footer
+{
+    height: 300px;
+    width: 100%;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    gap: 40px;
+}
+
+.container-footer h3 {
+    color: rgb(39, 171, 103);
+    font-size: 30px;
+}
+
+.container-footer .text 
+{
+    color: white;
+    line-height: 25px;
+    margin: 0 20px;
+    text-align: center;
+}
