@@ -13,7 +13,6 @@ const Navbar = () => {
     const logout = () => {
         setUser(null)
         window.localStorage.removeItem('loggedInUser')
-        // window.localStorage.removeItem('notes')
         setOpenLogout(false)
     }
 
@@ -26,7 +25,7 @@ const Navbar = () => {
                         setTimeout(() => setSpinner(false), 800)
                     }} to='/home'><FontAwesomeIcon icon={faHouseChimneyUser} /></NavLink>) : 
                 (<div className="title">
-                        <h1>NotasDePana</h1>
+                        <h1>Appunti</h1>
                         <FontAwesomeIcon className="title-icon" icon={faPencilSquare} />
                     </div>
                 )}
