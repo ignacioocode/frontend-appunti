@@ -55,7 +55,7 @@ const Note = ({nota}) => {
             console.log(error)
         } finally {
             setSpinner(false)
-            navigate('/home')
+            // navigate('/home')
         }
 
     }
@@ -67,11 +67,6 @@ const Note = ({nota}) => {
                 <h2>@{user.username}</h2>
             </div>
             <textarea className="container" value={input.content} name='content'  onChange={handleChange}/>
-                {/* <div className="content">{nota.content}</div>
-                <div className="date">
-                    <p>Creado: <br/>{nota.createdAt.split('T')[0]} - {nota.createdAt.split('T')[1].split('.')[0]}</p>
-                    <p>Editado: <br/>{nota.updatedAt.split('T')[0]} - {nota.updatedAt.split('T')[1].split('.')[0]}</p>
-                </div> */}
             <div className="icon">
                 <button disabled={!button ? true : false} onClick={handleSubmit} style={{ color: `${button ? '#27ab67' : '#666'}`}} className="edit">Guardar</button>
                 <button onClick={() => setOpenConfirm(true)} className="delete">Eliminar</button>
